@@ -25,8 +25,8 @@ get_header(); ?>
 			$image_2 = get_field('image_2');
 			$image_3 = get_field('image_3');	?>
 
-		<article class="case-study">
-			<aside class="case-study-sidebar">
+		<article class="portfolio">
+			<aside class="portfolio-sidebar">
 				<h3><?php the_title(); ?></h3>
 				<h6 class="services"><?php echo $services; ?></h6>
 				<h6>Client: <?php echo $client; ?></h6>
@@ -36,7 +36,7 @@ get_header(); ?>
 			  <p class="read-more-link"><a href="<?php echo $link; ?>"_blank>Visit Live Site &rsaquo;</a></p>
 		  </aside>
 
-			<div class="case-study-images">
+			<div class="portfolio-images">
 				<?php if($image_1) {
 				   echo wp_get_attachment_image( $image_1, $size );
 				} ?>
