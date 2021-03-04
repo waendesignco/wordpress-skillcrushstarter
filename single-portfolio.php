@@ -11,7 +11,7 @@
  * @subpackage Skillcrush_Starter
  * @since Skillcrush Starter 2.0
  */
-$size = "full";
+$size = "thumbnail";
 get_header(); ?>
 
 <div id="primary" class="site-content-sidebar">
@@ -30,10 +30,8 @@ get_header(); ?>
 				<h3><?php the_title(); ?></h3>
 				<h6 class="services"><?php echo $services; ?></h6>
 				<h6>Client: <?php echo $client; ?></h6>
-
 			  <?php the_content(); ?>
-
-			  <p class="read-more-link"><a href="<?php echo $link; ?>"_blank>Visit Live Site &rsaquo;</a></p>
+			  <p class="read-more-link"><a href="<?php echo $link; ?>" target="_blank">Visit Live Site &rsaquo;</a></p>
 		  </aside>
 
 			<div class="portfolio-images">
@@ -47,7 +45,6 @@ get_header(); ?>
 					 echo wp_get_attachment_image( $image_3, $size );
 				} ?>
 			</div>
-
     </article>
 		<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
