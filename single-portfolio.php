@@ -11,7 +11,7 @@
  * @subpackage Skillcrush_Starter
  * @since Skillcrush Starter 2.0
  */
-$size = "thumbnail";
+$size = "full";
 get_header(); ?>
 
 <div id="primary" class="site-content-sidebar">
