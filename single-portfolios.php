@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying single portfolip page
+ * The template for displaying single portfolio page
  *
  * This is the template that displays the page by default.
  * Please note that this is the WordPress construct of pages
@@ -52,7 +52,7 @@ get_header(); ?>
  </div><!-- #primary -->
 
  <nav id="navigation" class="container">
- 	<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to work</span></a></div>
+ 	<div class="left"><a href="<?php echo site_url('/portfolios/') ?>">&larr; <span>Back to portfolio</span></a></div>
  </nav>
 
 <?php get_footer(); ?>
